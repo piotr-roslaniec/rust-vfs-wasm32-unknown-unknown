@@ -10,7 +10,8 @@ crate-type = ["cdylib", "rlib"]
 [dependencies]
 wasm-bindgen = "0.2.63"
 console_error_panic_hook = "0.1.7"
-vfs = "0.12.0"
+#vfs = "0.12.0" # uncomment to reproduce on the current version
+vfs = { git = "https://github.com/manuel-woelker/rust-vfs.git", branch = "mw/wasm-support" }
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.13"
