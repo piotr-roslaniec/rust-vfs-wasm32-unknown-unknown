@@ -7,6 +7,14 @@ Requires [`wasm-pack`](https://github.com/rustwasm/wasm-pack) to be installed.
 
 ## Usage
 
+## Reproduce in node.js
+
+```
+wasm-pack build --target nodejs
+node test.js
+```
+
+
 ### Test in Headless Browsers with `wasm-pack test`
 
 ```
